@@ -1,0 +1,7 @@
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /*모서리를 둥글게 만들기. 원형 동그라미가 된다*/
+    object-fit: cover;  /* 이미지 비율 유지하며 영역을 꽉 채움 */
+    border: 1px solid #eeee;
+}
