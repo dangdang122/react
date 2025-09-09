@@ -1,6 +1,5 @@
 import React from "react";
 import './Avatar.css';
-import UserInfo from "./UserInfo";
 
 function Avatar(props){
     return(
