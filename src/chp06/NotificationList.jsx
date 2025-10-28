@@ -36,7 +36,7 @@ class NotificationList extends React.Component{
             }else{
                 // notifications라는 state를 초기화
                 // Interval 설정을 Clear
-                this.setStatet({
+                this.setState({
                     notifications:[]
                 });
                 clearInterval(timer);
