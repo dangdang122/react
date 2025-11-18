@@ -1,0 +1,62 @@
+/* 전체 컨버터 영역 */
+.converter-container {
+    font-family: Arial, sans-serif;
+    max-width: 340px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fafafa;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+/* 제목 */
+.converter-title {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* 입력 박스 모음 */
+.converter-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* 개별 입력 묶음 */
+.distance-input {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 레이블 */
+.distance-label {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444444;
+}
+
+/* 입력 필드 */
+.distance-field {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    font-size: 15px;
+    background-color: #ffffff;
+    transition: border 0.2s ease;
+}
+
+.distance-field:focus {
+    border: 1px solid #007acc;
+    outline: none;
+    background-color: #f0faff;
+}
+
+/* 결과 문장 */
+.converter-result {
+    text-align: center;
+    margin-top: 18px;
+    color: #222222;
+    font-size: 15px;
+}
