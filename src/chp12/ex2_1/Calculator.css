@@ -1,0 +1,82 @@
+/* Calculator 컴포넌트 컨테이너 스타일 */
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid #ccc;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 온도 입력 필드 컨테이너 스타일 */
+.temperature-input-container {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* 섭씨 (Celsius) 입력 필드 색상 */
+.scale-c {
+    border-color: #007bff; /* 파란색 계열 */
+}
+
+/* 화씨 (Fahrenheit) 입력 필드 색상 */
+.scale-f {
+    border-color: #dc3545; /* 빨간색 계열 */
+}
+
+/* 레이블 스타일 */
+.temperature-label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 입력 박스 스타일 */
+.temperature-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+/* 입력 박스 포커스 시 스타일 */
+.temperature-input:focus {
+    border-color: #555;
+    outline: none;
+}
+
+/* 끓는점 판단 결과 스타일 (BoilVerdict) */
+.boil-verdict-container {
+    margin-top: 15px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 물이 끓는 경우 스타일 */
+.boil-verdict-boils {
+    background-color: #dc3545; /* 빨간색 (뜨거움) */
+    color: white;
+}
+
+/* 물이 끓지 않는 경우 스타일 */
+.boil-verdict-does-not-boil {
+    background-color: #007bff; /* 파란색 (차가움) */
+    color: white;
+}

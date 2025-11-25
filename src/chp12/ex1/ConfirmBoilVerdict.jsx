@@ -11,7 +11,7 @@ function ConfirmBoilVerdict(){
         <fieldset>
             <legend>섭씨 온도를 입력하세요.</legend>
             <input value={temperature} onChange={handleTemperature}/>
-            <BoilVerdict celcius={parseInt(temperature)}/>
+            <BoilVerdict celsius={parseInt(temperature)}/>
         </fieldset>
     );
 }
